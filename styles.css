@@ -53,5 +53,23 @@ body {
 }
 
 div>img#background {
-    width: 50rem;
+    width: 44rem;
+}
+
+.form-side {
+    display:flex;
+    flex-direction:column;
+}
+
+.form-side>.blurb {
+    margin: 8rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.form-side>form>.inputs {
+    display:flex;
+    width: 40vw;
+    font-weight:bold;
 }
